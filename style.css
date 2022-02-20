@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(219, 17%, 16%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.card {
+  background-color: hsl(217, 19%, 24%);
+  height: 310px;
+  width: 340px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+
+.adviceID {
+  color: hsl(150, 100%, 66%);
+  margin-top: 30px;
+}
+
+.text {
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  width: 90%;
+  margin-bottom: 20px;
+  height: 125px;
+}
+
+.desktop {
+  display: none;
+}
+
+.dice {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(150, 100%, 66%);
+  position: relative;
+  bottom: -40px;
+  cursor: pointer;
+}
+
+.dice:hover {
+  box-shadow: inset 0 0 0 10em hsl(150, 100%, 66%);
+}
+
+@media screen and (min-width: 1300px) {
+  .card {
+    width: 540px;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
