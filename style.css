@@ -59,7 +59,7 @@ body {
 }
 
 .dice:hover {
-  box-shadow: inset 0 0 0 10em hsl(150, 100%, 66%);
+  background-color: hsl(150, 86%, 72%);
 }
 
 @media screen and (min-width: 1300px) {
